@@ -1,5 +1,5 @@
-# cirt1113
-# Lecture
+# cit1113
+# Lecture o.
 # Alex Brown
 
 #print("Hello World!")
