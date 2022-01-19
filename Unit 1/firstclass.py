@@ -2,7 +2,8 @@
 # Lecture
 # Alex Brown
 
-print("Hello World!")
+#print("Hello World!")
+
 #1 input name
 print("What is your name?")
 name = input()
