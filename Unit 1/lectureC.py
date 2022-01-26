@@ -31,3 +31,9 @@ except:
 
 months = age * 12
 print("You are at least", months, "months old.")
+
+# do calculation
+# print output
+
+# convert AB92 to binary
+# 1010 1011 1001 0010
