@@ -2,6 +2,9 @@
 # CIT 1113 Lecture C
 # 1/26/2022
 
+
+#Exponentially increases by 2 the specified number of times
+
 # print("How many time to repeat?")
 
 # try:
@@ -14,6 +17,10 @@
 # for x in range(repeats):
 #     print(x, number)
 #     number = number * 2
+
+
+
+#Gets user's age and returns their age in months
 
 print("How old are you?")
 try:
