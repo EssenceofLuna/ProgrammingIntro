@@ -1,3 +1,7 @@
+# Alex Brown
+# CIT 1113 Lecture C
+# 1/26/2022
+
 print("How many time to repeat?")
 
 try:
