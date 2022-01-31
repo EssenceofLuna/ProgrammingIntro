@@ -2,6 +2,7 @@
 # Alex Brown
 # Lecture D
 
+"""
 def calculatePay(hours, rate):
     #Given hours worked an hourly rate, returns total pay
 
@@ -14,4 +15,29 @@ def calculatePay(hours, rate):
         pay = pay + overtimePay
     return pay
 
-print(calculatePay(41, 10))
+print("Enter hours worked")
+hours = float(input(">"))
+print("Enter hourly rate")
+rate = float(input(">"))
+
+print(calculatePay(hours, rate))"""
+
+
+
+
+
+#Get hours worked and rate of pay
+print("Enter hours worked this week")
+hours = float(input(">"))
+
+print("Enter hourly rate")
+rate = float(input(">"))
+
+#Calculate base pay rate
+pay = hours * rate
+
+#Add overtime pay
+if hours > 40:
+    pay = pay + (hours-40) * 0.5
+
+print("Pay: ", pay)
