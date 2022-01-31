@@ -26,12 +26,16 @@ print(calculatePay(hours, rate))"""
 
 
 
-#Get hours worked and rate of pay
-print("Enter hours worked this week")
-hours = float(input(">"))
 
-print("Enter hourly rate")
-rate = float(input(">"))
+try:
+    #Get hours worked and rate of pay
+    print("Enter hours worked this week")
+    hours = float(input(">"))
+
+    print("Enter hourly rate")
+    rate = float(input(">"))
+except:
+    quit("Error: invalid value entered")
 
 #Calculate base pay rate
 pay = hours * rate
