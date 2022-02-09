@@ -1,0 +1,30 @@
+# Homework A
+
+start
+    output "Enter pounds to convert to kilograms"
+    input pounds
+    set kilograms = pounds / 2.20462
+    output pounds, "pounds is", kilograms, "kilograms."
+stop
+
+
+
+# Homework B
+
+start
+    output "Enter yards to convert to feet"
+    input yards
+    set feet = yards * 3
+    output yards, "yards is", feet, "feet."
+stop
+
+
+
+# Homework C
+
+start
+    output "Enter miles to convert to feet"
+    input miles
+    set feet = miles * 5280
+    output miles, "miles is", feet, "feet."
+stop
