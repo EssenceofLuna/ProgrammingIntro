@@ -50,17 +50,25 @@ def shape(sides = 4, length = 100, left = False):
 
         x = x + 1
     
-leo.speed(10) # speed of turtle (0-100)
-num_shapes = 36 # Number of shapes to be drawn around (0,0)
 
-for x in range(num_shapes):
-    shape()
-    leo.right(360/num_shapes)
-
-sleep(4)
+# Main function
+def main():
+    leo.speed(10) # speed of turtle (0-100)
+    num_shapes = 36 # Number of shapes to be drawn around (0,0)
 
 
-# old
+    for x in range(num_shapes):
+        shape()
+        leo.right(360/num_shapes)
+
+    sleep(4) # sleep at end to see result. Not needed if using IDLE.
+
+
+# run main()
+if __name__ == "__main__":
+    main()
+
+# old, ignore
 #leo.fd(100)
 #leo.right(90)
 #leo.fd(100)
