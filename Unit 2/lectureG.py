@@ -25,6 +25,8 @@ P
 E
 MD
 AS
+
+Abstraction - selective ignorance. Focus on main idea and ignore details.
 """
 
 from time import sleep
