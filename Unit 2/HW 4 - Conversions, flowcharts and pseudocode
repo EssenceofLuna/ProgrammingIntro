@@ -1,0 +1,18 @@
+# Pseudocode for inches to cm
+
+start
+    output "Enter inches"
+    input inches
+    set cm = inches * 2.54
+    output "cm =", cm
+stop
+
+
+# Pseudocode for hours to seconds
+
+start
+    output "Enter hours"
+    input hours
+    set seconds = hours * 3600
+    output "seconds =", seconds
+stop
