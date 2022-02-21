@@ -1,6 +1,6 @@
 # cit1113
 # Alex Brown
-# Lecture G
+# Lecture h
 
 """
 # Pseudocode that calculates volume of a cube given an edge length
