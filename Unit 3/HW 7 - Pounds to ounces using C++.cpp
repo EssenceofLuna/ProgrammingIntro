@@ -6,7 +6,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
 //Original code: https://onlinegdb.com/7A0U2O-4I
-
+//Turned in code: https://www.onlinegdb.com/fork/7A0U2O-4I
 
 #include <iostream>
 
