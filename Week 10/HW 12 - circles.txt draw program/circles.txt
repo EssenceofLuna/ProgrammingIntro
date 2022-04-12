@@ -1,0 +1,11 @@
+24,51,11,tan
+77,51,11,tan
+21,51,8,saddlebrown
+74,51,8,saddlebrown
+70,30,30,tan
+37,40,7.5,white
+58,40,7.5,white
+30,36,3,blue
+51,36,3,blue
+48,27,8,saddlebrown
+44,14,4,black
