@@ -1,0 +1,46 @@
+start
+    Declarations
+        Input_file = circles.txt
+        x = 0
+        y = 0
+        radius = 1
+        color = ""
+        scale = 1
+    return
+
+
+
+    housekeeping()
+        open input_file
+        input x
+        input y
+        input radiusinput color
+    return
+
+    detail_loop()
+        x = x * scale
+        y = y * scale
+        radius = radius * scale
+
+        draw.circle(x,y,radius,color)
+
+        input x
+        input y
+        input radius
+        input color
+    return
+
+    finish()
+        close input_file
+    return
+
+
+
+    housekeeping
+
+    while not eof
+        detail_loop
+    return
+
+    finish
+stop
